@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapex", "Mapex\Mapex.csproj", "{3DE42366-A2D7-4AFE-8D5A-86104843AB8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapex.Tests", "Mapex.Tests\Mapex.Tests.csproj", "{AA8E7031-E805-4D54-8D66-0B6B60148DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE42366-A2D7-4AFE-8D5A-86104843AB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE42366-A2D7-4AFE-8D5A-86104843AB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE42366-A2D7-4AFE-8D5A-86104843AB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE42366-A2D7-4AFE-8D5A-86104843AB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8E7031-E805-4D54-8D66-0B6B60148DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8E7031-E805-4D54-8D66-0B6B60148DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8E7031-E805-4D54-8D66-0B6B60148DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8E7031-E805-4D54-8D66-0B6B60148DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {592972A0-BCC1-41B2-BA55-5FCB709ABF68}
+	EndGlobalSection
+EndGlobal
