@@ -5,3 +5,4 @@
 # Mapex
 A dynamic mapping engine to extract, transform and load data using YAML directives from various data sources.
 
+See the [Wiki](https://github.com/alexander-forbes/mapex/wiki) for more information on how to use Mapex.
