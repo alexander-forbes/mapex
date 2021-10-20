@@ -67,7 +67,7 @@ namespace Mapex.Tests.Services.TypeConverters
 
 			var converter = new DecimalTypeConverter();
 			var exception = Assert.Throws<Exception>(() => converter.Convert(value, specification));
-			Assert.AreEqual("Failed to convert decimal 382.xx.", exception.Message);
+			Assert.AreEqual("Failed to convert decimal 382.xx using an InvariantCulture. Try specifying a culture in the format property...", exception.Message);
 		}
 	}
 }
