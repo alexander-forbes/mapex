@@ -31,7 +31,7 @@ namespace Mapex.Deserialization
 		private static IYamlDeserializer BuildYamlDeserializer(TagMap tagMap)
 		{
 			var builder = new DeserializerBuilder();
-			builder.WithNamingConvention(new CamelCaseNamingConvention());
+			builder.WithNamingConvention(CamelCaseNamingConvention.Instance);
 
 			foreach (var mapping in tagMap)
 			{
