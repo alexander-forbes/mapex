@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Mapex.Tests")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides a dynamic mapping engine to extract, transform and load data using YAML directives.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Alexander Forbes Group Services (Pty) Ltd.")]
 [assembly: AssemblyProduct("Mapex.Tests")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright (c) 2021 Alexander Forbes Group Services (Pty) Ltd.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.1.0")]
-[assembly: AssemblyFileVersion("5.1.0")]
+[assembly: AssemblyVersion("6.5.2")]
+[assembly: AssemblyFileVersion("6.5.2")]
