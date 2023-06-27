@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<OutputType>Library</OutputType>
@@ -15,7 +15,7 @@
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="AutoMapper" Version="10.1.1" />
 		<PackageReference Include="Notus" Version="2.0.0" />
-		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.13" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.0" />
 		<PackageReference Include="YamlDotNet" Version="11.2.1" />
 	</ItemGroup>
 </Project>
